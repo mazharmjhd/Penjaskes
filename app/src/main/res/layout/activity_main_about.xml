@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityMenu"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ABOUT PENJASKES"
+        android:gravity="center"
+        android:paddingBottom="20dp"
+        />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:layout_width="400dp"
+        android:layout_height="410dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="3dp"
+            android:fontFamily="sans-serif"
+            android:text="Pembelajaran Pendidikan jasmani, Olahraga dan Kesehatan adalah suatu proses pembelajaran melalui aktivitas gerak yang didesain untuk meningkatkan kebugaran jasmani, mengembangkan keterampilan gerak , pengetahuan dan perilaku hidup sehat dan aktif, sikap sportif, dan kecerdasan emosi. aspek pola hidup sehat dan pengenalan lingkungan bersih melalui aktivitas jasmani, olahraga dan kesehatan yang direncanakan secara sistematis dalam rangka mencapai tujuan pendidikan nasional. Pendidikan sebagai suatu proses pembinaan manusia yang berlangsung seumur hidup, pendidikan jasmani, olahraga dan kesehatan yang diajarkan di sekolah memiliki peranan sangat penting, yaitu memberikan kesempatan kepada peserta didik untuk terlibat langsung dalam berbagai pengalaman belajar melalui aktivitas jasmani, olahraga dan kesehatan yang dilakukan secara sistematis. Pembekalan pengalaman belajar itu diarahkan untuk membina pertumbuhan fisik dan pengembangan psikis yang lebih baik, sekaligus membentuk pola hidup sehat dan bugar. Melalui proses pembelajaran yang dilakukan, diharapkan siswa terampil dalam berolahraga. Terampil berolahraga bukan berarti peserta didik dituntut untuk menguasai cabang olahraga tertentu, melainkan mengutamakan proses perkembangan gerak dari waktu kewaktu. Dalam aktivitasnya, peserta didik dibawa dalam suasana gembira, sehingga dapat bereksplorasi dan menemukan sesuatu secara langsung maupun tidak langsung. Untuk mengaktualisasikan pendidikan jasmani, olahraga dan kesehatan seperti ini, peserta didik tidak selalu menjadi obyek."
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SMA NEGRI 7 TANGERANG SELATAN - APLIKASI NILAI PENJASKES 2019" />
+
+</LinearLayout>

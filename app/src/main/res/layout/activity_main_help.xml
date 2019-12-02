@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityMenu"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HELP"
+        android:gravity="center"
+        android:paddingBottom="20dp"
+        />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:layout_width="410dp"
+        android:layout_height="410dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="3dp"
+            android:fontFamily="sans-serif"
+            android:text="1.Menu-> GURU PENJAS : Untuk Absensi Guru dan ID sebagai tanda GURU telah HADIR pada saat hari belajar."
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="47dp"
+            android:fontFamily="sans-serif"
+            android:text="2.Menu-> SIMPAN dan MASUK : SIMPAN untuk menyimpan data yang telah di isi, MASUK untuk memasukan data-data Siswa/siswi."
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="104dp"
+            android:fontFamily="sans-serif"
+            android:text="3.Menu-> MASUK -> Mengisi Data Murid."
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="130dp"
+            android:fontFamily="sans-serif"
+            android:text="4.Menu-> MASUK -> MASUKAN NILAI : Untuk Menyimpan Keseluruhan Data Murid."
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SMA NEGRI 7 TANGERANG SELATAN - APLIKASI NILAI PENJASKES 2019" />
+
+</LinearLayout>

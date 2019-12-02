@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DAFTAR SISWA/SISWI"
+        android:gravity="center"
+        android:paddingBottom="20dp"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="NAMA SISWA" />
+
+    <AutoCompleteTextView
+        android:id="@+id/txtCountries"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="NILAI SISWA" />
+
+    <AutoCompleteTextView
+        android:id="@+id/txtCountries1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="KETERANGAN" />
+
+    <AutoCompleteTextView
+        android:id="@+id/txtCountries2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="KELAS" />
+
+    <AutoCompleteTextView
+        android:id="@+id/txtCountries3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="JENIS KELAMIN" />
+
+    <AutoCompleteTextView
+        android:id="@+id/txtCountries4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="NILAI RENANG" />
+
+    <AutoCompleteTextView
+        android:id="@+id/txtCountries5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="NILAI HARIAN" />
+
+    <AutoCompleteTextView
+        android:id="@+id/txtCountries6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+
